@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>AI Radar · 模型情报</title>
+<link>https://example.com/</link>
+<description>每日 AI 模型价格/上下文/上下线变更</description>
+<language>zh-CN</language>
+<item><title>2026-11-28</title><link>https://example.com/?d=2026-11-28</link><guid>2026-11-28</guid><description><![CDATA[一句话结论
+新增长上下文低价模型，免费层收缩，价格分化加剧。
+
+关键变化
+- 新增 9 个模型，Ling-3.2-flash 以 1,048,576 上下文和 $0.3/$0.9 入场，Kimi K2 系列补齐 262K/131K 上下文，意味着长上下文与中端价格带选择增加。
+- Ling-3.2-flash:free 被移除而付费版上架，意味着该模型免费入口关闭，依赖免费版的调用需迁移。
+- 17 个价格变更中，Inkling-2-small、MiniMax-M3.1-flash、DeepSeek-V4-Flash-Vision-Exp、Qwen3.5-9B 等明显降价，意味着成本敏感型任务可重新比价。
+- DeepSeek-V4.1-flash 输出价 $0.2028->$0.567，GLM-5.3-flash、Qwen3.5-397B-A17B、Kimi K2.5 等上调，意味着部分输出密集型任务成本上升。
+- 上下文两处小幅下调：Qwen3.8-2.4T-A95B 至 1,000,000，GLM-4.6 至 202,752，意味着超长上下文边界需复核。
+- unbiased/pareto 多版本及 Qwen3-235B-A22B-Thinking-2507 移除，意味着旧型号/预览版本收敛，依赖者需迁移。
+
+对使用者的影响
+- 长上下文与多模态选型应评估 Ling-3.2-]]></description></item>
+<item><title>2026-11-25</title><link>https://example.com/?d=2026-11-25</link><guid>2026-11-25</guid><description><![CDATA[一句话结论
+平台集中下架 8 个路由类端点，Qwen3.5-9B 输入价涨 70%。
+
+关键变化
+- 下架的 8 个模型中，6 个是 OpenRouter 自营的路由/聚合端点（auto、auto-code、auto-beta、fusion、pareto-code、bodybuilder），指向平台正在收缩或重构自身智能路由产品线。
+- 第三方路由产品 typesafe/jev-router 与 nvidia/switchyard 同日下架，说明本轮清理不限于平台自营，合作方的路由端点也一并退出。
+- qwen/qwen3.5-9b 输入价 $0.10→$0.17/百万 token（+70%），输出价维持 $0.25 不变，对输入密集型调用（长上下文、RAG）成本影响显著。
+- deepseek/deepseek-v4-pro 价格微调：输入 $0.8332→$0.8214（约 -1.4%），输出 $1.5228→$1.5464（约 +1.5%），整体接近对冲，重输出负载成本略增。
+
+对使用者的影响
+- 仍在调用 openrouter/auto 系列或其他已下架端点的用户：需尽快迁移到具体模型或替代路由方案，否则调用会失败。
+- 重度使用 qwen3.5-9b 且 prompt 较长的用户（RAG、长文档场景）：重新核算成本，必要时压缩上下文或换用同档替代模型。
+- 使用 deep]]></description></item>
+</channel></rss>

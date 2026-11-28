@@ -1,0 +1,317 @@
+{
+ "at": "2026-11-28T00:30:05.464387+00:00",
+ "events": [
+  {
+   "type": "added",
+   "id": "inclusionai/lingsante-3.1-air-vl",
+   "name": "inclusionAI: LingSante 3.1 Air VL",
+   "context": 131072,
+   "in": 0.06,
+   "out": 0.18,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "inclusionai/ling-3.2-flash",
+   "name": "inclusionAI: Ling 3.2 Flash",
+   "context": 1048576,
+   "in": 0.3,
+   "out": 0.9,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "mistralai/mistral-small-2603:batch",
+   "name": "Mistral: Mistral Small 4 (batch)",
+   "context": 262144,
+   "in": 0.075,
+   "out": 0.3,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "mistralai/ministral-8b-2512:batch",
+   "name": "Mistral: Ministral 3 8B 2512 (batch)",
+   "context": 262144,
+   "in": 0.075,
+   "out": 0.075,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "mistralai/mistral-large-2512:batch",
+   "name": "Mistral: Mistral Large 3 2512 (batch)",
+   "context": 262144,
+   "in": 0.25,
+   "out": 0.75,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "moonshotai/kimi-k2-0905",
+   "name": "MoonshotAI: Kimi K2 0905",
+   "context": 262144,
+   "in": 0.6,
+   "out": 2.5,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "mistralai/codestral-2508:batch",
+   "name": "Mistral: Codestral 2508 (batch)",
+   "context": 256000,
+   "in": 0.15,
+   "out": 0.45,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "moonshotai/kimi-k2",
+   "name": "MoonshotAI: Kimi K2 0711",
+   "context": 131072,
+   "in": 0.57,
+   "out": 2.3,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "added",
+   "id": "tngtech/deepseek-r1t2-chimera",
+   "name": "TNG: DeepSeek R1T2 Chimera",
+   "context": 131072,
+   "in": 1.0,
+   "out": 2.625,
+   "free": false,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "removed",
+   "id": "inclusionai/ling-3.2-flash:free",
+   "name": "inclusionAI: Ling 3.2 Flash (free)",
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "removed",
+   "id": "unbiased/pareto-26.10",
+   "name": "Pareto 26.10",
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "removed",
+   "id": "~unbiased/pareto-latest",
+   "name": "Pareto Latest",
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "removed",
+   "id": "unbiased/pareto-26.9",
+   "name": "Pareto 26.9",
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "removed",
+   "id": "unbiased/pareto-26.10-preview",
+   "name": "Pareto 26.10 Preview",
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "removed",
+   "id": "qwen/qwen3-235b-a22b-thinking-2507",
+   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "thinkingmachines/inkling-2-mini",
+   "name": "Thinking Machines: Inkling 2 Mini",
+   "old_in": 0.075,
+   "new_in": 0.06,
+   "old_out": 0.3,
+   "new_out": 0.24,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "thinkingmachines/inkling-2-small",
+   "name": "Thinking Machines: Inkling 2 Small",
+   "old_in": 0.3,
+   "new_in": 0.15,
+   "old_out": 1.0,
+   "new_out": 0.5,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "old_in": 0.15,
+   "new_in": 0.075,
+   "old_out": 0.6,
+   "new_out": 0.3,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "nvidia/nemotron-3.5-super-vl",
+   "name": "NVIDIA: Nemotron 3.5 Super VL",
+   "old_in": 0.15,
+   "new_in": 0.15,
+   "old_out": 0.47,
+   "new_out": 0.45,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "old_in": 0.0507,
+   "new_in": 0.051,
+   "old_out": 0.2028,
+   "new_out": 0.567,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "old_in": 0.12,
+   "new_in": 0.15,
+   "old_out": 0.38,
+   "new_out": 0.5,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "deepseek/deepseek-v4-flash-vision-exp",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+   "old_in": 0.44,
+   "new_in": 0.2156,
+   "old_out": 1.32,
+   "new_out": 0.6468,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "old_in": 0.035,
+   "new_in": 0.06,
+   "old_out": 1.5,
+   "new_out": 1.96,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "context_change",
+   "id": "qwen/qwen3.8-2.4t-a95b",
+   "name": "Qwen: Qwen3.8 2.4T A95B",
+   "old": 1048576,
+   "new": 1000000,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813",
+   "old_in": 0.111,
+   "new_in": 0.0999,
+   "old_out": 4.44,
+   "new_out": 5.0,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "meta/muse-glimmer-30b",
+   "name": "Meta: Muse Glimmer 30B",
+   "old_in": 0.35,
+   "new_in": 0.3,
+   "old_out": 1.5,
+   "new_out": 1.2,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "old_in": 0.8214,
+   "new_in": 0.5122,
+   "old_out": 1.5464,
+   "new_out": 1.5651,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "old_in": 0.09,
+   "new_in": 0.0675,
+   "old_out": 0.3,
+   "new_out": 0.225,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "qwen/qwen3.5-9b",
+   "name": "Qwen: Qwen3.5-9B",
+   "old_in": 0.17,
+   "new_in": 0.075,
+   "old_out": 0.25,
+   "new_out": 0.11,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "old_in": 0.45,
+   "new_in": 0.5,
+   "old_out": 3.0,
+   "new_out": 3.6,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "moonshotai/kimi-k2.5",
+   "name": "MoonshotAI: Kimi K2.5",
+   "old_in": 0.5,
+   "new_in": 0.6,
+   "old_out": 2.5,
+   "new_out": 3.0,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "context_change",
+   "id": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "old": 204800,
+   "new": 202752,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "z-ai/glm-4.5-air",
+   "name": "Z.ai: GLM 4.5 Air",
+   "old_in": 0.14,
+   "new_in": 0.2,
+   "old_out": 0.86,
+   "new_out": 1.1,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  },
+  {
+   "type": "price_change",
+   "id": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "old_in": 0.71,
+   "new_in": 0.59,
+   "old_out": 0.71,
+   "new_out": 0.79,
+   "at": "2026-11-28T00:30:05.464387+00:00"
+  }
+ ]
+}
